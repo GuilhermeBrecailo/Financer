@@ -1,15 +1,11 @@
 <template>
-    <Login />
+    <Register />
 </template>
 
 
 <style scoped>
 .title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.title p{
+    text-align: center;
     font-size: 24px;
 }
 .grid{
@@ -17,6 +13,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: green;
 }
 .card{
     display: flex;
